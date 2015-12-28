@@ -5,7 +5,6 @@ module.exports = function(options) {
   var scssLoaders = cssLoaders + '!sass';
   var jsLoaders = ['jsx-loader', 'babel'];
 
-
   return {
     entry: "./../main.jsx",
     output: {
@@ -16,18 +15,13 @@ module.exports = function(options) {
       loaders: [
         {
           test: /\.jsx$/,
-          exclude: /node_modules/,
           loaders: jsLoaders,
         }
       ]
     },
-    externals: {
-      //don't bundle the 'react' npm package with our bundle.js
-      //but get it from a global 'React' variable
-      'react': 'React'
-    },
     resolve: {
       extensions: ['', '.js', '.jsx']
-    }
+    },
+    modulesDirectories: ['node_modules']
   }
 }();
