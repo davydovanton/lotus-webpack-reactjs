@@ -7,6 +7,11 @@
     "react-dom": "~0.14.1"
   },
   "devDependencies": {
+    "css-loader": "^0.19.0",
+    "autoprefixer-loader": "^2.0.0",
+    "style-loader": "^0.12.4",
+    "node-sass": "^3.4.1",
+    "sass-loader": "^2.0.1",
     "babel": "^5.8.23",
     "babel-loader": "^5.3.2",
     "jsx-loader": "^0.13.2",
