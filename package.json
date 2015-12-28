@@ -1,0 +1,17 @@
+{
+  "name": "lotus-webpack",
+  "version": "0.1.0",
+  "dependencies": {
+    "material-ui": "~0.13.0",
+    "react": "~0.14.1",
+    "react-dom": "~0.14.1"
+  },
+  "devDependencies": {
+    "babel": "^5.8.23",
+    "babel-loader": "^5.3.2",
+    "jsx-loader": "^0.13.2",
+    "webpack-strip": "^0.1.0",
+    "webpack": "^1.12.2",
+    "webpack-dev-server": "^1.11.0"
+  }
+}
