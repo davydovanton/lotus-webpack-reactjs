@@ -1,1 +1,1 @@
-cd ./apps/web/assets/javascripts/config && webpack 
+cd ./apps/web/assets/javascripts/config && webpack --progress --colors --watch  
